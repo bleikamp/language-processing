@@ -1,0 +1,13 @@
+{
+  "name": "processing-language",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Add syntax highlighting and snippets to Processing (.pde) files in Atom.",
+  "repository": "https://github.com/atom/processing-language",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
