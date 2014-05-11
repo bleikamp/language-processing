@@ -1,4 +1,7 @@
 '.source.processing':
+  'class':
+    'prefix': 'class'
+    'body': 'Class $1 {\n\t$2() {\n\t}\n}'
   'draw':
     'prefix': 'se'
     'body': 'void draw() {\n\t$1\n}'
@@ -17,6 +20,12 @@
   'opengl':
     'prefix': 'gl'
     'body': 'import processing.opengl.*;'
+  'PImage':
+    'prefix': 'img'
+    'body': 'Pimage $1 = loadImage("$2");'
+  'PShape':
+    'prefix': 'shape'
+    'body': 'PShape $1 = loadShape("$2");'
   'setup':
     'prefix': 'se'
     'body': 'void setup() {\n\t$1\n}'
