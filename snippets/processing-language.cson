@@ -1,151 +1,151 @@
-".source.processing":
-  "class":
-    "prefix": "class"
-    "body": "class $1 {\n\t$2\n}"
-  "displayWidth":
-    "prefix": "dW"
-    "body": "displayWidth"
-  "displayHeight":
-    "prefix": "dH"
-    "body": "displayHeight"
-  "draw":
-    "prefix": "dr"
-    "body": "void draw() {\n\t$1\n}"
-  "extends":
-    "prefix": "ex"
-    "body": "class $1 extends $2 {\n\t$3\n}"
-  "float":
-    "prefix": "float"
-    "body": "float $1 = $2;"
-  "float[]":
-    "prefix": "float[]"
-    "body": "float[] $1 = new float[$2];"
-  "framerate":
-    "prefix": "FR"
-    "body": "framerate ($1)"
-  "int":
-    "prefix": "int"
-    "body": "int $1 = $2;"
-  "int[]":
-    "prefix": "int[]"
-    "body": "int[] $1 = new int[$2];"
-  "opengl":
-    "prefix": "gl"
-    "body": "import processing.opengl.*;"
-  "setup":
-    "prefix": "se"
-    "body": "void setup() {\n\t$1\n}"
-  "size":
-    "prefix": "size"
-    "body": "size($1, $2, ${3:P3D});"
-  "string":
-    "prefix": "str"
-    "body": "string $1 = $2;"
-  "string[]":
-    "prefix": "string[]"
-    "body": "string[] $1 = new string[$2];"
-  "void method":
-    "prefix": "void"
-    "body": "void $1($2 $3) {\n\t$4\n}"
-  "try":
-    "prefix": "try"
-    "body": "try {\n\t$1\n}\ncatch ($2) {\n\t$3\n}"
-  "mousePressed":
-    "prefix": "MP"
-    "body": "void mousePressed() {\n\t$1\n}"
-  "mouseReleased":
-    "prefix": "MR"
-    "body": "void mouseReleased() {\n\t$1\n}"
-  "mouseClicked":
-    "prefix": "MC"
-    "body": "void mouseClicked() {\n\t$1\n}"
-  "mouseMoved":
-    "prefix": "MM"
-    "body": "void mouseMoved() {\n\t$1\n}"
-  "mouseDragged":
-    "prefix": "MD"
-    "body": "void mouseDragged() {\n\t$1\n}"
-  "mouseWheel":
-    "prefix":"MW"
-    "body": "void mouseWheel(MouseEvent event) {\n\tfloat $1 = event.getCount();\n}"
-  "mouseButton":
-    "prefix": "MB"
-    "body": "void mousePressed() {\n\tif (mouseButton == LEFT) {\n\t\t\$1;\n}\n\telse if (mouseButton == RIGHT) {\n\t\t\$2;\n}\n\telse {\n\t\t\$3;\n}\n}"
-  "JSONArray":
-    "prefix": "JSONA"
-    "body": "$1 = new JSONArray();"
-  "JSONObject":
-    "prefix": "JSONO"
-    "body": "$1 = new JSONObject();"
-  "loadJSONArray":
-    "prefix": "LJSONA"
-    "body": "$1 = loadJSONArray('$2');"
-  "loadJSONObject":
-    "prefix": "LJSONO"
-    "body": "$1 = loadJSONObject('$2');"
-  "saveJSONArray":
-    "prefix": "SJSONA"
-    "body": "$1 = saveJSONArray('$2');"
-  "saveJSONObject":
-    "prefix": "SJSONO"
-    "body": "$1 = saveJSONObject('$2');"
-  "getString":
-    "prefix": "GS"
-    "body": "getString($1)"
-  "getInt":
-    "prefix": "GI"
-    "body": "getInt($1)"
-  "getFloat":
-    "prefix": "GF"
-    "body": "getFloat($1)"
-  "getBoolean":
-    "prefix": "GB"
-    "body": "getBoolean($1)"
-  "getJSONArray":
-    "prefix": "GJA"
-    "body": "getJSONArray($1)"
-  "getJSONObject":
-    "prefix": "GJO"
-    "body": "getJSONObject($1)"
-  "getStringArray":
-    "prefix": "GSA"
-    "body": "getStringArray($1)"
-  "getIntArray":
-    "prefix": "GIA"
-    "body": "getIntArray($1)"
-  "setString":
-    "prefix": "SS"
-    "body": "setString($1)"
-  "setInt":
-    "prefix": "SI"
-    "body": "setInt($1)"
-  "setFloat":
-    "prefix": "SF"
-    "body": "setFloat($1)"
-  "setBoolean":
-    "prefix": "SB"
-    "body": "setBoolean($1)"
-  "setJSONArray":
-    "prefix": "SJA"
-    "body": "setJSONArray($1)"
-  "setJSONObject":
-    "prefix": "SJO"
-    "body": "setJSONObject($1)"
-  "intDict":
-    "prefix": "intdict"
-    "body": "$1 = new IntDict();"
-  "floatDict":
-    "prefix": "floatdict"
-    "body": "$1 = new FloatDict();"
-  "sortKeys":
-    "prefix": "SK"
-    "body": "$1.sortKeys();"
-  "sortValues":
-    "prefix": "SV"
-    "body": "$1.sortValues();"
-  "sortKeysReverse":
-    "prefix": "SKR"
-    "body": "$1.sortKeysReverse();"
-  "sortValuesReverse":
-    "prefix": "SVR"
-    "body": "$1.sortValuesReverse();"
+'.source.processing':
+  'class':
+    'prefix': 'class'
+    'body': 'class $1 {\n\t$2\n}'
+  'displayWidth':
+    'prefix': 'dW'
+    'body': 'displayWidth'
+  'displayHeight':
+    'prefix': 'dH'
+    'body': 'displayHeight'
+  'draw':
+    'prefix': 'dr'
+    'body': 'void draw() {\n\t$1\n}'
+  'extends':
+    'prefix': 'ex'
+    'body': 'class $1 extends $2 {\n\t$3\n}'
+  'float':
+    'prefix': 'float'
+    'body': 'float $1 = $2;'
+  'float[]':
+    'prefix': 'float[]'
+    'body': 'float[] $1 = new float[$2];'
+  'framerate':
+    'prefix': 'FR'
+    'body': 'framerate ($1)'
+  'int':
+    'prefix': 'int'
+    'body': 'int $1 = $2;'
+  'int[]':
+    'prefix': 'int[]'
+    'body': 'int[] $1 = new int[$2];'
+  'opengl':
+    'prefix': 'gl'
+    'body': 'import processing.opengl.*;'
+  'setup':
+    'prefix': 'se'
+    'body': 'void setup() {\n\t$1\n}'
+  'size':
+    'prefix': 'size'
+    'body': 'size($1, $2, ${3:P3D});'
+  'string':
+    'prefix': 'str'
+    'body': 'string $1 = $2;'
+  'string[]':
+    'prefix': 'string[]'
+    'body': 'string[] $1 = new string[$2];'
+  'void method':
+    'prefix': 'void'
+    'body': 'void $1($2 $3) {\n\t$4\n}'
+  'try':
+    'prefix': 'try'
+    'body': 'try {\n\t$1\n}\ncatch ($2) {\n\t$3\n}'
+  'mousePressed':
+    'prefix': 'MP'
+    'body': 'void mousePressed() {\n\t$1\n}'
+  'mouseReleased':
+    'prefix': 'MR'
+    'body': 'void mouseReleased() {\n\t$1\n}'
+  'mouseClicked':
+    'prefix': 'MC'
+    'body': 'void mouseClicked() {\n\t$1\n}'
+  'mouseMoved':
+    'prefix': 'MM'
+    'body': 'void mouseMoved() {\n\t$1\n}'
+  'mouseDragged':
+    'prefix': 'MD'
+    'body': 'void mouseDragged() {\n\t$1\n}'
+  'mouseWheel':
+    'prefix':'MW'
+    'body': 'void mouseWheel(MouseEvent event) {\n\tfloat $1 = event.getCount();\n}'
+  'mouseButton':
+    'prefix': 'MB'
+    'body': 'void mousePressed() {\n\tif (mouseButton == LEFT) {\n\t\t\$1;\n}\n\telse if (mouseButton == RIGHT) {\n\t\t\$2;\n}\n\telse {\n\t\t\$3;\n}\n}'
+  'JSONArray':
+    'prefix': 'JSONA'
+    'body': '$1 = new JSONArray();'
+  'JSONObject':
+    'prefix': 'JSONO'
+    'body': '$1 = new JSONObject();'
+  'loadJSONArray':
+    'prefix': 'LJSONA'
+    'body': '$1 = loadJSONArray("$2");'
+  'loadJSONObject':
+    'prefix': 'LJSONO'
+    'body': '$1 = loadJSONObject("$2");'
+  'saveJSONArray':
+    'prefix': 'SJSONA'
+    'body': '$1 = saveJSONArray("$2");'
+  'saveJSONObject':
+    'prefix': 'SJSONO'
+    'body': '$1 = saveJSONObject("$2");'
+  'getString':
+    'prefix': 'GS'
+    'body': 'getString($1)'
+  'getInt':
+    'prefix': 'GI'
+    'body': 'getInt($1)'
+  'getFloat':
+    'prefix': 'GF'
+    'body': 'getFloat($1)'
+  'getBoolean':
+    'prefix': 'GB'
+    'body': 'getBoolean($1)'
+  'getJSONArray':
+    'prefix': 'GJA'
+    'body': 'getJSONArray($1)'
+  'getJSONObject':
+    'prefix': 'GJO'
+    'body': 'getJSONObject($1)'
+  'getStringArray':
+    'prefix': 'GSA'
+    'body': 'getStringArray($1)'
+  'getIntArray':
+    'prefix': 'GIA'
+    'body': 'getIntArray($1)'
+  'setString':
+    'prefix': 'SS'
+    'body': 'setString($1)'
+  'setInt':
+    'prefix': 'SI'
+    'body': 'setInt($1)'
+  'setFloat':
+    'prefix': 'SF'
+    'body': 'setFloat($1)'
+  'setBoolean':
+    'prefix': 'SB'
+    'body': 'setBoolean($1)'
+  'setJSONArray':
+    'prefix': 'SJA'
+    'body': 'setJSONArray($1)'
+  'setJSONObject':
+    'prefix': 'SJO'
+    'body': 'setJSONObject($1)'
+  'intDict':
+    'prefix': 'intdict'
+    'body': '$1 = new IntDict();'
+  'floatDict':
+    'prefix': 'floatdict'
+    'body': '$1 = new FloatDict();'
+  'sortKeys':
+    'prefix': 'SK'
+    'body': '$1.sortKeys();'
+  'sortValues':
+    'prefix': 'SV'
+    'body': '$1.sortValues();'
+  'sortKeysReverse':
+    'prefix': 'SKR'
+    'body': '$1.sortKeysReverse();'
+  'sortValuesReverse':
+    'prefix': 'SVR'
+    'body': '$1.sortValuesReverse();'
