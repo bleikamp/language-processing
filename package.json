@@ -1,6 +1,6 @@
 {
   "name": "processing-language",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Add syntax highlighting and snippets to Processing (.pde) files in Atom.",
   "repository": "https://github.com/bleikamp/language-processing",
